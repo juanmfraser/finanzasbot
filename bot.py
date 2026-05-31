@@ -48,7 +48,7 @@ CATEGORIAS_INGRESO = ["Sueldo", "Freelance", "Inversión", "Regalo", "Otro_Ingre
 
 # ── Gemini setup ───────────────────────────────────────────────────────────
 genai.configure(api_key=GEMINI_API_KEY)
-gemini_model = genai.GenerativeModel("gemini-1.5-flash")
+gemini_model = genai.GenerativeModel("gemini-2.0-flash")
 
 # ── Google Sheets ──────────────────────────────────────────────────────────
 def get_spreadsheet():
